@@ -1,12 +1,15 @@
-const { default: MockExam } = require("@/components/MockExam")
+
+import AboutUs from "../../components/Abt";
+import { Navbar } from "../../components/Navbar";
 
 
+const Page = async () => {
 
-const Page = () => {
+    
     return(
-        <div className="bg-gradient-to-br from-indigo-500 via-purple-500 to-purple-700 min-h-screen flex items-center justify-center px-4">
-            {/* <MockExam /> */}
-            About Us
+        <div className="">
+            <Navbar />
+           <AboutUs />
         </div>
     )
 } 
