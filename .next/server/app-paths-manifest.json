@@ -1,8 +1,9 @@
 {
+  "/page": "app/page.js",
+  "/sign-up/[[...index]]/page": "app/sign-up/[[...index]]/page.js",
+  "/learning-dashboard/page": "app/learning-dashboard/page.js",
   "/symbol-preparation/page": "app/symbol-preparation/page.js",
+  "/mock-test/page": "app/mock-test/page.js",
   "/question-bank/page": "app/question-bank/page.js",
-  "/practice-test/page": "app/practice-test/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/services/page": "app/services/page.js",
-  "/learning-dashboard/page": "app/learning-dashboard/page.js"
+  "/practice-test/page": "app/practice-test/page.js"
 }
